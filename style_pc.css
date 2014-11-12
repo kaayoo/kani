@@ -286,10 +286,10 @@ body { margin:0; padding:0;
  font-size:14px; text-align:center; text-decoration:none; display:block; height:60px; line-height:60px; padding:0 20px; border-bottom:4px solid #fff;
  -webkit-transition-property:background; -webkit-transition-duration:0.4s; -webkit-transition-timing-function:ease; -moz-transition-property:background; -moz-transition-duration:0.4s; -moz-transition-timing-function:ease; -o-transition-property:background; -o-transition-duration:0.4s; -o-transition-timing-function:ease;
 }
-#global_menu ul li a:hover, #global_menu > ul > li.active_menu > a { border-bottom:4px solid #aaa; color:#333; }
+#global_menu ul li a:hover, #global_menu > ul > li.active_menu > a { color:#962626; border-bottom:4px solid #962626; }
 #global_menu ul ul li { float:none; height:auto; line-height:26px; padding:0; margin:0; text-align:left; }
 #global_menu ul ul a { font-size:12px; position:relative; padding:10px 20px 8px; width:150px; height:auto; line-height:180%; margin:0 0 -1px 0; text-align:left; border:1px solid #ccc; background:#fff; }
-#global_menu ul ul a:hover { border:1px solid #ccc; background:#e2e2e2; }
+#global_menu ul ul a:hover { border:1px solid #ccc; background:#f7f5ec }
 
 
 
@@ -301,7 +301,7 @@ body { margin:0; padding:0;
 #return_top:hover { }
 
 /* basic setting */
-#footer { clear:both; width:100%; min-width:1140px; background:#f4f4f4; }
+#footer { clear:both; width:100%; min-width:1140px; background:#f7f5ec; }
 #footer_inner { width:1140px; margin:0 auto; position:relative; font-size:11px; padding-top:50px; }
 #footer a { }
 #footer a:hover { }
@@ -318,7 +318,7 @@ body { margin:0; padding:0;
 .footer_widget img { height:auto; max-width:100%; width:auto; }
 
 /* copyright */
-#copyright { width:100%; min-width:1140px; clear:both; color:#fff; background:#999; margin:0; }
+#copyright { width:100%; min-width:1140px; clear:both; color:#fff; background:#333; margin:0; }
 #copyright_inner { width:1140px; height:50px; margin:0 auto; positiion:relative; font-size:11px; }
 #copyright a { text-decoration:none; color:#fff; }
 #copyright a:hover { text-decoration:underline; }
