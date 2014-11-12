@@ -1,0 +1,141 @@
+/********** 検索フォーム **********/
+
+/* 検索フォーム見出し */
+.search_h2{
+	font-size: 22px;
+	padding: 0px 0px 0px 0px;
+}
+
+/* 検索フォーム外枠 */
+#feas-searchform-0 {
+	border: 2px solid #ccc;
+	padding: 10px;
+	margin-bottom:20px;
+}
+
+/* 検索項目外枠 */
+.se-formdiv{
+	border-bottom:#ddd 1px dotted;
+}
+
+/* 検索項目タイトル */
+.se-title{
+	float:left;
+	padding:4px 2px;
+	font-weight:bold;
+	font-size:15px;
+	width:150px;
+}
+
+/* 検索項目検索キー */
+.se-element{
+	float:left;
+	padding:3px 5px;
+	width:605px;
+}
+
+/* 検索項目検索キー個別指定 */
+
+.feas_clevel_01{
+	padding:4px;
+}
+
+/* 検索ボタン */
+#feas-submit-button-0 {
+	color: #ffffff;
+	background: #bbb;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 100px;
+	border: none;
+	margin:10px 37%;
+	border-radius: 2px;
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 0.4s;
+	-webkit-transition-timing-function: ease;
+}
+#feas-submit-button-0:hover {
+cursor:pointer
+}
+/********** 検索結果 **********/
+
+/* 検索結果見出し */
+
+#feas-result-0 {
+	border-top:none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+	font-weight:normal;
+	font-size: 24px;
+	border-bottom:#ddd 2px solid;
+}
+
+/********** ソート **********/
+
+/* ソートメニュー外枠 */
+#feas-sl-menu{
+	border-bottom: solid #ddd 1px;
+	margin-bottom: 30px;
+}
+
+/* ソート項目外枠 */
+.sort-divbox{
+	float:left;
+	width: 16%;
+	text-align:center;
+	padding-bottom:10px;
+}
+
+/* ソート項目タイトル */
+.sort-title{
+	font-weight:bold;
+	font-size:14px;
+}
+
+/* ソートキー */
+span[class^="feas-sl-"]{
+	padding:5px 5px;
+	font-size:14px;
+} 
+
+/* スマートフォン対応 */
+@media (max-width: 767px) {
+
+	/* 検索項目タイトル */
+	.se-title{
+		float:left;
+		padding:4px 2px;
+		font-weight:bold;
+		font-size:15px;
+		width:80%;
+	}
+
+	/* 検索項目検索キー */
+	.se-element{
+		float:left;
+		padding:3px 5px;
+		width:90%;
+	}
+	/* 検索ボタン */
+	#feas-submit-button-0 {
+		font-size: 18px;
+		padding: 10px 40%;
+		margin:10px auto;
+	}
+
+	/* 検索結果見出し */
+	#feas-result-0 {
+		font-size: 18px;
+	}
+
+	/* ソート項目外枠 */
+	.sort-divbox {
+		float: left;
+		width: 25%;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+
+
+}
