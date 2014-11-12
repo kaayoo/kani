@@ -273,7 +273,7 @@ body { margin:0; padding:0;
 #logo_text a:hover { color:#00a2d9; }
 #description { position:absolute; left:0px; top:55px; font-weight:normal; font-size:11px; color:#aaa; }
 #logo_image {margin:0; padding:20px 0 0; }
-#logo_image img { display:block; }
+#logo_image img { display:inline-block; }
 
 
 /* global menu */
