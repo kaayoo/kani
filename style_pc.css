@@ -26,8 +26,8 @@ body { margin:0; padding:0;
 
 
 /* headline */
-.headline1 { border-bottom:1px solid #B10302; padding:0; margin:0 0 25px 0; font-size:24px; }
-.headline1 span { border-bottom:4px solid #B10302; padding:0 0 10px 0; margin:0; display:inline-block; }
+.headline1 { border-top:2px solid #B10302; border-bottom:2px solid #B10302; padding:15px 0 0; margin:0 0 25px 0; font-size:24px; }
+.headline1 span { border-bottom:5px solid #B10302; padding:0 0 15px 0; margin:0; display:inline-block; }
 
 
 
@@ -71,7 +71,7 @@ body { margin:0; padding:0;
 #index_news ol li .title a { display:block; text-decoration:none; }
 
 /* archive link */
-.index_archive_link a { position:absolute; right:0px; top:5px; font-size:13px; text-decoration:none; }
+.index_archive_link a { position:absolute; right:0px; top:25px; font-size:13px; text-decoration:none; }
 .index_archive_link a:hover { text-decoration:underline; }
 
 /* index center banner */
