@@ -108,8 +108,8 @@ input[type="text"], input[type="password"], textarea, select { outline: none; }
 .side_widget li { line-height:170%; margin:0 0 10px 0; padding:0 0 0 9px; background:url(img/common/bullet1.gif) no-repeat left 8px; }
 .side_widget a { }
 .side_widget img { height:auto; max-width:100%; width:auto; }
-.side_headline { border-bottom:1px solid #B10302; padding:0; margin:0 0 25px 0; font-size:18px; }
-.side_headline span { border-bottom:4px solid #B10302; padding:0 0 10px 0; margin:0; display:inline-block; }
+.side_headline { border-bottom:1px solid #962626; padding:15px 0 0 0; margin:0 0 25px 0; font-size:18px; }
+.side_headline span { border-bottom:4px solid #962626; padding:0 0 15px 0; margin:0; display:inline-block; }
 
 
 /* banner */
