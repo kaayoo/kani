@@ -72,7 +72,7 @@ body { margin:0; padding:0;
 
 /* archive link */
 .index_archive_link a { position:absolute; right:20px; top:20px; color:#fff; font-size:13px; text-decoration:none; }
-.index_archive_link a:hover { text-decoration:underline; }
+.index_archive_link a:hover { color:#fff; text-decoration:underline; }
 
 /* index center banner */
 #index_center_banner { display:block; margin:0 0 40px 0; }
