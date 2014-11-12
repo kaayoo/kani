@@ -509,15 +509,21 @@ a:hover img.linkimg{
     -webkit-transition:all 0.3s;
     transition:all 0.3s;
 }
-.v1-1{
-    border: 5px solid #448919;
-    background: #448919;
+
+a.v1-1{
+    display: block;
     color: #fff;
+    background-color: #419A41;
+    border-radius: 4px;
+    border-bottom: 3px solid #085708;
 }
-.v1-1:hover{
-    border: 5px solid #007374;
-    background: #007374;
+
+a.v1-1:hover{
+    background-color: #70BD70;
+    color: #fff;
+    border-bottom: 3px solid #419A41;
 }
+
 
 /* -----------------------------------------------------------
     インナー枠 1
