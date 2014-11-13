@@ -326,7 +326,7 @@ body {
  footer
 ---------------------------------------------------------------------- */
 /* footer top area */
-#footer { clear:both; width:100%; background:#f4f4f4; }
+#footer { clear:both; width:100%; background:#f7f5ec; }
 #footer_inner { position:relative; font-size:11px; padding-top:20px; }
 #footer li { line-height:170%; margin:0 0 10px 0; padding:0; }
 
