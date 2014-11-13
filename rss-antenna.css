@@ -1,0 +1,70 @@
+div.rss-antenna {
+	margin: 10px 0;
+	overflow: hidden;
+	word-break:break-all;
+}
+
+div.rss-antenna div.rss-item a{
+	text-decoration: none;
+	display: block;
+}
+
+div.rss-antenna div.rss-item :hover {
+    background-color:#eef3fd;
+}
+
+div.rss-antenna p.title {
+	margin: 0;
+	padding: 5px 2px 0;
+	line-height: 1.2;
+}
+
+div.rss-antenna p.info {
+	margin: 5px 0;
+	line-height: 1.2;
+	font-size: 90%;
+	text-align: right;
+	font-weight: bold;
+	color: #a9a9a9;
+}
+
+div.rss-antenna span.sitename {
+	margin: 0;
+}
+
+div.rss-antenna img {
+	max-width: 22%;
+	max-height: 100px;
+	margin: 2px 0;
+}
+
+div.rss-antenna p.description {
+	margin: 3px 0;
+	/*padding: 5px 10px 5px 0;*/
+	line-height: 1.2;
+	font-size: 90%;
+	color: Gray;
+	width: 77%;
+}
+
+div.rss-antenna .right {
+	float: right;
+}
+
+div.rss-antenna .left {
+	float: left;
+}
+
+div.rss-antenna p.description-only {
+	margin: 3px 0;
+	line-height: 1.2;
+	font-size: 90%;
+	color: Gray;
+	width: 100%;
+}
+
+div.rss-antenna hr {
+	margin: 0;
+	clear:both;
+}
+
