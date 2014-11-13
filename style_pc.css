@@ -297,7 +297,7 @@ body { margin:0; padding:0;
 /* ----------------------------------------------------------------------
  footer
 ---------------------------------------------------------------------- */
-#return_top { z-index:999; position:fixed; right:0px; bottom:25px; margin:0; display:block; width:36px; height:100px; text-indent:-9999px; background:#ccc url(img/footer/return_top.png) no-repeat center; }
+#return_top { z-index:999; position:fixed; right:0px; bottom:25px; margin:0; display:block; width:36px; height:100px; text-indent:-9999px; background:#333 url(img/footer/return_top.png) no-repeat center; }
 #return_top:hover { }
 
 /* basic setting */
