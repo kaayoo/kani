@@ -515,6 +515,16 @@ a:hover img.linkimg{
     z-index: 2;
 }
 
+.btn:before,.btn:after {
+	/* position: absolute; */
+	/* display: block; */
+	/* content: ""; */
+	/* height: 100%; */
+	width: 100%;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
 a.v1-1{
     display: block;
     color: #fff;
