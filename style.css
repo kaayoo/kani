@@ -498,33 +498,6 @@ a:hover img.linkimg{
 .pb10{padding-bottom:10px !important}
 .pl10{padding-left:10px !important}
 
-.btn{
-    -webkit-transition:all 0.3s;
-    transition:all 0.3s;
-    /* 以下装飾です。削除OK */
-    text-decoration:none;
-    height: 60px;
-    line-height: 60px;
-    width: 320px;
-    text-align: center;
-    display: block;
-    margin:13px 10px;
-    outline: none;
-    float: right;
-    position: relative;
-    z-index: 2;
-}
-
-.btn:before,.btn:after {
-	/* position: absolute; */
-	/* display: block; */
-	/* content: ""; */
-	/* height: 100%; */
-	width: 100%;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
 a.v1-1{
     display: block;
     color: #fff;
