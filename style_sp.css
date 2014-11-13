@@ -89,6 +89,33 @@ body {
 #index_product ol li .title a { text-decoration:none; }
 #index_product ol li .desc { font-size:12px; margin:10px 0; line-height:160%; }
 
+.btn{
+    -webkit-transition:all 0.3s;
+    transitiration:none;
+    width: 280px;
+    text-align: center;
+    text-decoration: none;
+    font-sie: 16px;
+    display: block;
+    padding: 20px;
+    margin:13px 10px;
+    outline: none;
+    float: right;
+    position: relative;
+    z-index: 2;on:all 0.3s;
+    text-decoration:none;
+}
+
+.btn:before,.btn:after {
+	/* position: absolute; */
+	/* display: block; */
+	/* content: ""; */
+	/* height: 100%; */
+	width: 100%;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
 /* blog */
 #index_blog { position:relative; margin:0 0 40px 0; }
 #index_blog ol { margin:0; padding:0; }
