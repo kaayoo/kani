@@ -12,9 +12,22 @@ Version:1.0
  basic setting
 ---------------------------------------------------------------------- */
 
-a img { border:none; verticle-align:top; }
 a, a:visited { outline:none; color:#333; }
 a:hover { color:#00a2d9; }
+a img {
+	border:none;
+	verticle-align:top;
+	-webkit-transition-property: opacity;
+	-webkit-transition-duration: 0.4s;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-property: opacity;
+	-moz-transition-duration: 0.4s;
+	-moz-transition-timing-function: ease;
+	-o-transition-property: opacity;
+	-o-transition-duration: 0.4s;
+	-o-transition-timing-function: ease;
+	-moz-box-sizing: border-box;
+}
 a:hover img { opacity:0.5; }
 p { margin:0 0 1.5em 0; padding:0; line-height:240%; }
 ul { list-style-type:none; margin:0 0 2em 0; padding:0; line-height:0%; }
@@ -500,15 +513,6 @@ a:hover img.linkimg{
     float: right;
     position: relative;
     z-index: 2;
-}
-.btn:before,.btn:after{
-    position: absolute;
-    display: block;
-    content:"";
-    height: 100%;
-    width: 100%;
-    -webkit-transition:all 0.3s;
-    transition:all 0.3s;
 }
 
 a.v1-1{
