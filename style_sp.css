@@ -87,7 +87,7 @@ body {
 #index_product ol li .category a:hover { text-decoration:underline; }
 #index_product ol li .title { font-size:14px; margin:15px 0 10px; }
 #index_product ol li .title a { text-decoration:none; }
-#index_product ol li .desc { font-size:12px; margin:10px 0; line-height:160%; }
+#index_product ol li .desc { font-size:13px; margin:10px 0; line-height:160%; }
 
 .btn{
     -webkit-transition:all 0.3s;
@@ -221,7 +221,7 @@ body {
 /* ----------------------------------------------------------------------
  side content
 ---------------------------------------------------------------------- */
-.side_widget { margin:0 0 25px 0; font-size:12px; }
+.side_widget { margin:0 0 25px 0; font-size:13px; }
 
 /* search */
 .widget_search #search-box, .widget_search #s { width:70%; padding:0 2%; }
@@ -354,7 +354,7 @@ body {
 ---------------------------------------------------------------------- */
 /* footer top area */
 #footer { clear:both; width:100%; background:#f7f5ec; }
-#footer_inner { position:relative; font-size:11px; padding-top:20px; }
+#footer_inner { position:relative; font-size:13px; padding-top:20px; }
 #footer li { line-height:170%; margin:0 0 10px 0; padding:0; }
 
 /* widget area */
@@ -390,6 +390,3 @@ body {
 #copyright p { margin:10px 0 10px 15px; float:left; font-size:12px; }
 #copyright a { text-decoration:none; color:#fff; }
 #copyright a:hover { text-decoration:underline; }
-
-
-
