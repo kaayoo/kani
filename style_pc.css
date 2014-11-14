@@ -93,7 +93,7 @@ body { margin:0; padding:0;
 #index_product ol li .category a:hover { text-decoration:underline; }
 #index_product ol li .title { font-size:14px; margin:15px 0 5px; }
 #index_product ol li .title a { text-decoration:none; }
-#index_product ol li .desc { font-size:12px; margin:5px 0 10px; line-height:160%; }
+#index_product ol li .desc { font-size:13px; margin:5px 0 10px; line-height:160%; }
 
 .btn{
     -webkit-transition:all 0.3s;
@@ -329,7 +329,7 @@ body { margin:0; padding:0;
 
 /* basic setting */
 #footer { clear:both; width:100%; min-width:1140px; background:#f7f5ec; }
-#footer_inner { width:1140px; margin:0 auto; position:relative; font-size:11px; padding-top:50px; }
+#footer_inner { width:1140px; margin:0 auto; position:relative; font-size:13px; padding-top:50px; }
 #footer a { }
 #footer a:hover { }
 #footer li { line-height:170%; margin:0 0 10px 0; padding:0; }
