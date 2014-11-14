@@ -29,7 +29,7 @@ a img {
 	-moz-box-sizing: border-box;
 }
 a:hover img { opacity:0.5; }
-p { margin:0 0 1.5em 0; padding:0; line-height:240%; }
+p { margin:0 0 1.5em 0; padding:0; line-height:180%; }
 ul { list-style-type:none; margin:0 0 2em 0; padding:0; line-height:0%; }
 ul li { margin:0; padding:0; line-height:normal; zoom:1; }
 ol { margin:0 0 2em 19px; padding:0; }
@@ -116,7 +116,7 @@ input[type="text"], input[type="password"], textarea, select { outline: none; }
 /* ----------------------------------------------------------------------
  side content
 ---------------------------------------------------------------------- */
-.side_widget { margin:0 0 40px 0; font-size:11px; overflow:hidden; }
+.side_widget { margin:0 0 40px 0; font-size:13px; overflow:hidden; }
 .side_widget ul { margin:0; }
 .side_widget li ul { margin:10px 0 0 0; }
 .side_widget li { line-height:170%; margin:0 0 10px 0; padding:0 0 0 9px; background:url(img/common/bullet1.gif) no-repeat left 8px; }
