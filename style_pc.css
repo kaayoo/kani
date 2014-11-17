@@ -336,7 +336,7 @@ body { margin:0; padding:0;
 
 /* widget area */
 #footer_widget { position:relative; }
-.footer_widget { margin:0 41px 40px 0; width:350px; display:inline-block; vertical-align:top; overflow:hidden; }
+.footer_widget { margin:0 41px 40px 0; width:340px; display:inline-block; vertical-align:top; overflow:hidden; }
 .footer_widget.right_widget { margin-right:0; }
 .footer_headline { font-size:16px; margin:0 0 15px 0; padding:0 0 8px 0; }
 .footer_widget ul { margin:0; }
